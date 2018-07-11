@@ -1,0 +1,256 @@
+    1  sudo apt-get update
+    2  sudo apt-get install
+    3  sudo apt-get synaptic
+    4  sudo apt-get install synaptic
+    5  sudo synaptic
+    6  xterm
+    7  startx
+    8  wget 
+    9  sudo nano
+   10  ifconfig
+   11  ssh
+   12  ifconfig
+   13  ifconfig eth0 stop
+   14  ifconfig eth0 start
+   15  ifconfig 
+   16  ifconfig eth0 
+   17  sudo ifconfig eth0 stop
+   18  sudo ifconfig eth0 restart
+   19  reload
+   20  reboot
+   21  sudo reboot
+   22  ifconfig
+   23  exit
+   24  ls
+   25  sudo apt-get install gcc g++ python python-dev mercurial bzr gdb valgrind gsl-bin libgsl0-dev libgsl0ldbl flex bison tcpdump sqlite sqlite3 libsqlite3-dev libxml2 libxml2-dev libgtk2.0-0 libgtk2.0-dev uncrustify doxygen graphviz imagemagick texlive texlive-latex-extra texlive-generic-extra texlive-generic-recommended texinfo dia texlive texlive-latex-extra texlive-extra-utils texlive-generic-recommended texi2html python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev python-pygccxml 
+   26  apt-get install mecurial
+   27  sudo apt-get install mecurial
+   28  sudo apt-get install mercurial
+   29  hg 
+   30  hg clone http://code.nsnam.org/ns-3-allinone
+   31  cd ns-3-allinone/ && ./download.py
+   32  ls
+   33  ./build.py --enable-examples --enable-tests
+   34  sudo apt-get install gcc
+   35  gcc -ver
+   36  gcc 
+   37  gcc --h
+   38  gcc --version
+   39  sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+   40  sudo apt-get update
+   41  sudo apt-get install g++-4.9
+   42  ./build.py --enable-examples --enable-tests
+   43  gcc --version
+   44  sudo apt-get update
+   45  gcc --version
+   46  apt-cache policy g++-4.9
+   47  ./build.py --enable-examples --enable-tests
+   48  tail ./ns-3-dev/build/config.log 
+   49  ./build.py --enable-examples --enable-tests
+   50  gcc -v
+   51  sudo ./build.py --enable-examples --enable-tests
+   52  sudo apt-get install qmake-qt4
+   53  sudo apt-get install qmake-qt5
+   54  sudo apt-get install qt4-qmake
+   55  sudo apt-get install qt5-qmake
+   56  sudo ./build.py --enable-examples --enable-tests
+   57  g++-4.9
+   58  g++-4.9 --ver
+   59  g++-4.9 --v
+   60  g++-4.9 -v
+   61  sudo update-alternatives --config gcc
+   62  sudo update-alternatives --config g++
+   63  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 10
+   64  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/g++
+   65  sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 10
+   66  sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 20
+   67  sudo update-alternatives --config gcc
+   68  sudo update-alternatives --config g++
+   69  sudo ./build.py --enable-examples --enable-tests
+   70  exit
+   71  df
+   72  fdisk
+   73  fdisk -l /dev/sda1
+   74  fdisk -l sda1
+   75  fdisk -s
+   76  fdisk sda1
+   77  fdisk /dev/sda1
+   78  sudo fdisk /dev/sda1
+   79  df
+   80  exit
+   81  sudo fdisk /dev/sda
+   82  df
+   83  sudo fdisk /dev/sda
+   84  sudo reboot
+   85  df
+   86  resize2fs /dev/sda1 
+   87  sudo resize2fs /dev/sda1 
+   88  df
+   89  sudo halt -p now
+   90  ls
+   91  qtcreator
+   92  ?
+   93  qtcreator
+   94  exit
+   95  pwd
+   96  cd ns-3-allinone/
+   97  ls
+   98  cd ns-3-dev/
+   99  ls
+  100  ./waf shell
+  101  sudo ./waf shell
+  102  ps
+  103  ps -ax
+  104  kill -9 3413
+  105  kill -9 3417
+  106  kill -9 3437
+  107  sudo apt-get install ubuntu-desktop
+  108  startx
+  109  halt -r now
+  110  halt -l now
+  111  halt 
+  112  sudo halt -k now 
+  113  sudo halt --help
+  114  sudo halt -p
+  115  ifconfig /all
+  116  ifconfig 
+  117  ifconfig  eth0 
+  118  ifconfig  eth0 stop
+  119  ifconfig  eth0
+  120  ifconfig
+  121  sudo network restart
+  122  ifconfig
+  123  ifconfig eth0 restart
+  124  sudo service networking restart
+  125  sudo service networkingstop
+  126  sudo service networking stop
+  127  ifdown eth0
+  128  sudo ifdown eth0
+  129  sudo ifup eth0
+  130  startx
+  131  firefox
+  132  xterm &
+  133  qtcreator
+  134  cd ns-3-allinone/
+  135  ls
+  136  sudo qtcreator
+  137  cd ns-3-allinone/
+  138  sudo qtcreator
+  139  ./waf
+  140  ls
+  141  cd ns-3-allinone/
+  142  ls
+  143  cd ns-3-dev
+  144  ls
+  145  ./waf shell
+  146  sudo ./waf shell
+  147  qtcreator
+  148  ls
+  149  cd ns-3-allinone/
+  150  ls
+  151  cd ns-3-dev/
+  152  ls
+  153  tcpdump -nn -tt -r second-0-0.pcap 
+  154  cd examples/
+  155  cd tutorial/
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd ..
+  160  ls
+  161  find third
+  162  find third.pcap
+  163  ls
+  164  cd ns-3-dev/
+  165  ls
+  166  cd examples/tutorial/
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd scratch/
+  171  ls
+  172  cd ..
+  173  ls
+  174  tcpdump -nn -tt -r third-0-0.pcap 
+  175  tcpdump -nn -tt -r third-0-1.pcap 
+  176  tcpdump -nn -tt -r third-0-1.pcap | more
+  177  nano
+  178  sudo ./waf shell
+  179  cd ns-3-dev
+  180  cd ns-3-allinone/
+  181  cd ns-3-dev
+  182  sudo ./waf shell
+  183  ls
+  184  cd ns-3-allinone/
+  185  ls
+  186  cd ns-3-dev/
+  187  ls
+  188  tcpdump -r wifi-simple-adhoc-0-0.pcap -nn -tt
+  189  ls
+  190  tcpdump -r wifi-simple-adhoc-1-0.pcap -nn -tt
+  191  ls
+  192  tcpdump -r wifi-simple-adhoc-1-0.pcap -nn -tt
+  193  ls
+  194  tcpdump -r wifi-simple-adhoc-15-0.pcap -nn -tt
+  195  tcpdump -r wifi-simple-adhoc-2-0.pcap -nn -tt
+  196  tcpdump -r wifi-simple-adhoc-3-0.pcap -nn -tt
+  197  tcpdump -r wifi-simple-adhoc-1-0.pcap -nn -tt
+  198  tcpdump -r wifi-simple-adhoc-1-0.pcap -nn -tt | more
+  199  qtcreator
+  200  cd ns-3-allinone/
+  201  cd ns-3-dev
+  202  sudo ./waf shell
+  203  ls
+  204  tcpdump -r sink-1-0.pcap -nn -tt | more
+  205  tcpdump -r sink-1-0.pcap -nn -tt | grep cts
+  206  tcpdump -r sink-1-0.pcap -nn -tt | grep ts
+  207  tcpdump -r sink-1-0.pcap -nn -tt | grep rts
+  208  tcpdump -r sink-1-0.pcap -nn -tt | grep Clear
+  209  ls
+  210  ls -al
+  211  ls -al s*
+  212  ls -al 
+  213  tcpdump -r sink-1-0.pcap -nn -tt | grep Clear
+  214  tcpdump -r sink-1-0.pcap -nn -tt 
+  215  ls
+  216  cd ns-3-allinone/
+  217  cd ns-3-dev/
+  218  sudo ./waf shell
+  219  qtcreator
+  220  
+  221  ls
+  222  ls -al sink*
+  223  tcpdump -r sink-1-0.pcap -nn -tt 
+  224  tcpdump -r sink-1-0.pcap -nn -tt  | grep Clear
+  225  tcpdump -r sink-1-0.pcap -nn -tt  | grep Clear > cap1CTSToSelf
+  226  ls
+  227  less cap1CTSToSelf 
+  228  tcpdump -r sink-1-0.pcap -nn -tt  | grep Ready
+  229  tcpdump -r sink-1-0.pcap -nn -tt  | grep RTS
+  230  tcpdump -r sink-1-0.pcap -nn -tt  | grep send
+  231  tcpdump -r sink-1-0.pcap -nn -tt  | grep clear
+  232  tcpdump -r sink-1-0.pcap -nn -tt  
+  233  ls
+  234  cp sink-1-0.pcap sink-1-0-ctstoself.pcap 
+  235  cp src-0-0.pcap src-0-0-ctstoself.pcap 
+  236  ls sink* -al
+  237  tcpdump -r sink-1-0.pcap -nn -tt  | grep clear
+  238  tcpdump -r sink-1-0.pcap -nn -tt  
+  239  ls sink* -al
+  240  ls src* -al
+  241  ls source* -al
+  242  ls 
+  243  ls src* -al
+  244  ls src-* -al
+  245  tcpdump -r sink-1-0.pcap -nn -tt  
+  246  ls
+  247  tcpdump -r sink-ctstoself-1-0.pcap -nn -tt  
+  248  tcpdump -r sink_ctstoself-1-0.pcap -nn -tt  
+  249  cd /var/log
+  250  ls
+  251  ls -al
+  252  cd ~/ns-3-allinone/ns-3-dev/
+  253  ls
+  254  sudo ./waf shell
+  255  qtcreator
+  256  history > command-history.txt
