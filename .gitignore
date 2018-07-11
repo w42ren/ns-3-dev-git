@@ -32,7 +32,7 @@ TAGS
 
 .lock-waf_*_build
 .waf*
-
+examples/
 build-dir/
 build/
 /.cproject
